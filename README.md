@@ -84,6 +84,7 @@ While a property on water will attract 17,172,145 Average Price.
 To increase Value of Property so as to sell at the highest price possible, the Real estate Company should advise their homeowners the following 
 
 Grade is the Most important factor to consider.
+
 Followed by Waterfront.
 
 ## Recommendation
