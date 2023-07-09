@@ -46,12 +46,14 @@ The dataset I will use is the King County House Sales dataset, which contains in
 
 ![Alt text](corr.png)
 
-Sqft_living has the highest correlation to price.
+Sqft_living has the highest correlation to price.(0.7)
 
 ### Sqft_living vs price
 ![Alt text](sqft.png)
 
-The diagram shows relationship between Square Footage of Living Space and Price for the dataset.As this shows it linear relationship it does not account for other variables such as waterfront or grade of property as this is the most affected by price.
+The diagram shows relationship between Square Footage of Living Space and Price for the dataset. 
+
+As this shows it linear relationship it does not account for other variables such as waterfront or grade of property as this is the most affected by price.
 
 ### WaterFront Property or No WaterFront property?
 ![Alt text](water.png)
@@ -67,6 +69,36 @@ Average price of a home with a high grade exa grade 13 Mansion is the highest.
 Coefficient for grade 13 Mansion, suggests that, having a mansion is associated with an increase in price of approximately 1.455 Telling us that a higher grade affects price.
 
 ### Final Model
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  price   R-squared:                       0.497
+Model:                            OLS   Adj. R-squared:                  0.497
+Method:                 Least Squares   F-statistic:                     2136.
+Date:                Mon, 10 Jul 2023   Prob (F-statistic):               0.00
+Time:                        00:30:59   Log-Likelihood:                -9362.7
+No. Observations:               21597   AIC:                         1.875e+04
+Df Residuals:                   21586   BIC:                         1.884e+04
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  13.5729      0.006   2220.610      0.000      13.561      13.585
+waterfront_YES          0.7461      0.031     23.892      0.000       0.685       0.807
+grade_11 Excellent      0.5234      0.020     26.580      0.000       0.485       0.562
+grade_12 Luxury         0.8579      0.040     21.360      0.000       0.779       0.937
+grade_13 Mansion        1.4553      0.104     14.029      0.000       1.252       1.659
+grade_3 Poor           -1.0968      0.373     -2.937      0.003      -1.829      -0.365
+grade_4 Low            -1.4128      0.072    -19.590      0.000      -1.554      -1.271
+grade_5 Fair           -1.2619      0.025    -50.958      0.000      -1.310      -1.213
+grade_6 Low Average    -1.0328      0.010   -100.475      0.000      -1.053      -1.013
+grade_7 Average        -0.7381      0.007   -101.538      0.000      -0.752      -0.724
+grade_8 Good           -0.4407      0.008    -56.777      0.000      -0.456      -0.425
+...
+==============================================================================
+
+Notes:
 
 ### Results 
 
