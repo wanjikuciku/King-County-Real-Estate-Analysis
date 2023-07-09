@@ -48,15 +48,17 @@ The dataset I will use is the King County House Sales dataset, which contains in
 
 Sqft_living has the highest correlation to price.
 
-### Baseline model
-
 ### Final model
 
-
+### Sqft_living vs price
 ![Alt text](sqft.png)
+The diagram shows relationship between Square Footage of Living Space and Price for the dataset.As this shows it linear relationship it does not account for other variables such as waterfront or grade of property as this is the most affected by price.
 
-
+### WaterFront Property or No WaterFront property?
 ![Alt text](water.png)
-
+Average price for a property with waterfront is much higher than those without.
+Coefficient for waterfront_YES suggests that, having a waterfront property is associated with an increase in price of approximately 0.7461 units.
 
 ![Alt text](grade.png)
+Average price of a home with a high grade exa grade 13 Mansion is the highest.
+Coefficient for grade 13 Mansion, suggests that, having a mansion is associated with an increase in price of approximately 1.455 Telling us that a higher grade affects price.
