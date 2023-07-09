@@ -48,17 +48,50 @@ The dataset I will use is the King County House Sales dataset, which contains in
 
 Sqft_living has the highest correlation to price.
 
-### Final model
-
 ### Sqft_living vs price
 ![Alt text](sqft.png)
+
 The diagram shows relationship between Square Footage of Living Space and Price for the dataset.As this shows it linear relationship it does not account for other variables such as waterfront or grade of property as this is the most affected by price.
 
 ### WaterFront Property or No WaterFront property?
 ![Alt text](water.png)
+
 Average price for a property with waterfront is much higher than those without.
+
 Coefficient for waterfront_YES suggests that, having a waterfront property is associated with an increase in price of approximately 0.7461 units.
 
 ![Alt text](grade.png)
+
 Average price of a home with a high grade exa grade 13 Mansion is the highest.
+
 Coefficient for grade 13 Mansion, suggests that, having a mansion is associated with an increase in price of approximately 1.455 Telling us that a higher grade affects price.
+
+### Final Model
+
+### Results 
+
+Our model is statistically significant overall, with an F-statistic 2137.
+The model is 49.7% of the variance in the target variable(price).
+Grade 13 Mansion has the highest coefficient to price(1.455)
+
+The higher the grading of a property, the higher the price. Instance Grade 13 Mansion will attract 3,710,769 Average Price.
+While a property on water will attract 17,172,145 Average Price.
+
+
+## Conclusion
+
+To increase Value of Property so as to sell at the highest price possible, the Real estate Company should advise their homeowners the following 
+
+Grade is the Most important factor to consider.
+Followed by Waterfront.
+
+## Recommendation
+
+Use higher quality materials (interior and exterior) to increase value of property. Eg Flooring, roofing. And the property should be well constructed to avoid grade being affected negatively.
+Having Property near water also significantly increases Price.
+
+
+
+
+
+
