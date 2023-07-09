@@ -41,3 +41,22 @@ The dataset I will use is the King County House Sales dataset, which contains in
 * `sqft_lot15` - The square footage of the land lots of the nearest 15 neighbors
 
 ## Modeling
+
+#### Correlation heatmap
+
+![Alt text](corr.png)
+
+Sqft_living has the highest correlation to price.
+
+### Baseline model
+
+### Final model
+
+
+![Alt text](sqft.png)
+
+
+![Alt text](water.png)
+
+
+![Alt text](grade.png)
