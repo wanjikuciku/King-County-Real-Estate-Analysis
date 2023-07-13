@@ -11,7 +11,7 @@ Homeowners: The primary stakeholders are homeowners who are looking to sell thei
 Real Estate Agents: Real estate agents play a crucial role as intermediaries between homeowners and potential buyers. They are responsible for listing and marketing properties, negotiating deals, and advising homeowners on strategies to increase the value of their homes. Providing them with accurate and data-backed recommendations can enable them to better serve their clients and achieve successful sales.
 
 ## Data Understanding
-The dataset I will use is the King County House Sales dataset, which contains information about house sales in a northwestern county. The dataset is provided in the kc_house_data.csv file in the data folder of the project's GitHub repository.
+The dataset I will use is the King County House Sales dataset, which contains information about house sales. The dataset is provided in the kc_house_data.csv file in the data folder of the project's GitHub repository.
 
 ### Column Names and Descriptions for King County Data Set
 * `id` - Unique identifier for a house
