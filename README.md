@@ -49,7 +49,7 @@ The dataset I will use is the King County House Sales dataset, which contains in
 Sqft_living has the highest correlation to price.(0.7)
 
 ### Sqft_living vs price
-![Alt text](sqft.png)
+![Alt text](sqft_living.png)
 
 The diagram shows relationship between Square Footage of Living Space and Price for the dataset. 
 
